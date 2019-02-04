@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 15px 9px 15px;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: $font-oswald;
+  border-radius: 2px;
+  margin: 0;
+
+  @include text-style(16px, 20px);
+}

@@ -1,0 +1,44 @@
+{
+  "name": "ana-shishoit",
+  "version": "1.0.0",
+  "description": "ana.shishoit.io website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamilla11/ana-shishoit.git"
+  },
+  "author": "anashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamilla11/ana-shishoit/issues"
+  },
+  "homepage": "https://github.com/mamilla11/ana-shishoit#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.7",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^4.4.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-webp": "^4.0.1",
+    "posthtml-include": "^1.2.0"
+  }
+}

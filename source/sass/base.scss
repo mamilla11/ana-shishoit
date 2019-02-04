@@ -1,0 +1,33 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-open {
+  height: 100vh;
+  overflow: hidden;
+}
