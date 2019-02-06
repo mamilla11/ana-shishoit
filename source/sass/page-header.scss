@@ -6,7 +6,7 @@
   align-items: center;
   padding-top: 20px;
   width: 100%;
-  border-bottom: 1px solid lighten($link-color, 35%);
+  border-bottom: 1px solid lighten($text-color, 35%);
 
   @media (min-width: $width-tablet) {
     flex-direction: row;
@@ -23,7 +23,9 @@
   align-self: flex-start;
   width: 170px;
   flex-shrink: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  animation-name: emersion;
+  animation-duration: 3s;
 
   @media (min-width: $width-tablet) {
     margin-top: 6px;
@@ -42,8 +44,6 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  animation-name: emersion;
-  animation-duration: 3s;
 }
 
 .page-header__content {

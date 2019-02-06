@@ -23,13 +23,18 @@
         <nav class="page-header__navigation page-header__navigation--open site-navigation">
           <ul class="site-navigation__list">
             <li class="site-navigation__item">
-              <a class="link link--underlined site-navigation__link" href="#projects">
+              <a class="link link--underlined site-navigation__link" href="#about">
                 About
               </a>
             </li>
             <li class="site-navigation__item">
-              <a class="link link--underlined site-navigation__link" href="#about">
+              <a class="link link--underlined site-navigation__link" href="#projects">
                 Projects
+              </a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="link link--underlined site-navigation__link" href="#snippets">
+                Snippets
               </a>
             </li>
             <li class="site-navigation__item">
@@ -40,9 +45,175 @@
           </ul>
         </nav>
       </header>
+      <main>
+        <section class="about" id="about">
+          <h2 class="title visually-hidden">About</h2>
+          <img class="about__image" src="img/raster/anashi@2x.jpeg" width="320" height="320"/>
+          <p class="about__text">
+            Hi! My name is Anastasiia. I worked as an Embedded Software Engineer for about 5 years,
+            but recently I digged deeper into the Web Development. I am doing my very first steps in
+            this field and in this blog I will try to accumulate all my achievements so far and further.
+          </p>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="title">Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a class="button projects__button projects__button--gllacy"
+                  href="gllacy/gllacy.html" target="_blank">
+                Gllacy
+              </a>
+              <div class="projects__description table">
+                <div class="table__column"></div>
+                <div class="table__row">
+                  <p class="table__cell">Description</p>
+                  <p class="table__cell">Online ice-cream shop</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Stack</p>
+                  <p class="table__cell">HTML5, CSS3, JS</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Platforms</p>
+                  <p class="table__cell">Desktop</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Source</p>
+                  <a class="link table__cell" 
+                      href="https://github.com/mamilla11/830807-gllacy"
+                      target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </div> 
+            </li>
+            <li class="projects__item">
+              <a class="button projects__button projects__button--catenergy"
+                  href="catenergy/catenergy.html" target="_blank">
+                Catenergy
+              </a>
+              <div class="projects__description table">
+                <div class="table__column"></div>
+                <div class="table__row">
+                  <p class="table__cell">Description</p>
+                  <p class="table__cell">Fitness food for cats</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Stack</p>
+                  <p class="table__cell">HTML5, CSS3, JS, Sass, Gulp</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Platforms</p>
+                  <p class="table__cell">Desktop, Tablet, Mobile</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Source</p>
+                  <a class="link table__cell" 
+                      href="https://github.com/mamilla11/830807-cat-energy"
+                      target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </div> 
+            </li>
+            <li class="projects__item">
+              <a class="button projects__button projects__button--keksogram"
+                  href="kekstagram/kekstagram.html" target="_blank">
+                Keksogram
+              </a>
+              <div class="projects__description table">
+                <div class="table__column"></div>
+                <div class="table__row">
+                  <p class="table__cell">Description</p>
+                  <p class="table__cell">Service for uploading and editing pictures</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Stack</p>
+                  <p class="table__cell">HTML5, CSS3, JS</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Platforms</p>
+                  <p class="table__cell">Desktop</p>
+                </div>
+                <div class="table__row">
+                  <p class="table__cell">Source</p>
+                  <a class="link table__cell" 
+                      href="https://github.com/mamilla11/830807-kekstagram"
+                      target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </div> 
+            </li>
+          </ul>
+        </section>
+        <section class="snippets" id="snippets">
+          <h2 class="title">Snippets</h2>
+          <section class="sort">
+            <form class="sort__settings">
+              <div class="sort__setting setting setting--delay">
+                <p class="setting__name">Delay time (ms)</p>
+                <button class="button button--sort button--image button--left"
+                        type="button">
+                  Уменьшить
+                </button>
+                <input class="setting__value setting__value--delay"
+                        type="text"
+                        value="50"
+                        title="delay value"
+                        name="delay value"
+                        tabindex="-1"
+                        readonly>
+                <button class="button button--sort button--image button--right"
+                        type="button">
+                  Увеличить
+                </button>
+              </div>
+              <div class="sort__setting setting setting--datasize">
+                <p class="setting__name">Data size</p>
+                <button class="button button--sort button--image button--left"
+                        type="button">
+                  Уменьшить
+                </button>
+                <input class="setting__value setting__value--datasize"
+                        type="text"
+                        value="50"
+                        title="delay value"
+                        name="delay value"
+                        tabindex="-1"
+                        readonly>
+                <button class="button button--sort button--image button--right"
+                        type="button">
+                  Увеличить
+                </button>
+              </div>
+            </form>
+            <div class="sort__field">
+              <canvas class="sort__canvas" id="canvas" width="630" height="315"></canvas>
+            </div>
+            <div class="sort__controls">
+              <button class="button button--sort button--bubble">Bubble Sort</button>
+              <button class="button button--sort button--cocktail">Cocktail Sort</button>
+              <button class="button button--sort button--merge">Merge Sort</button>
+              <button class="button button--sort button--selection">Selection Sort</button>
+              <button class="button button--sort button--insertion">Insertion Sort</button>
+              <button class="button button--sort button--quick">Quick Sort</button>
+              <button class="button button--sort button--reset">Randomize</button>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer class="page-footer" id="contacts">
+        <span class="page-footer__tagline">Stay tuned</span>
+        <span class="page-footer__extra">&hearts;</span>
+        <span class="page-footer__copyright">Copyright &copy; 2018 shishoit.io</span>
+      </footer>
     </div>
     <script src="js/picturefill.min.js"></script>
     <script src="js/templatefill.min.js"></script>
     <script src="js/menu-toggle.min.js"></script>
+    <script src="js/settings.min.js"></script>
+    <script src="js/sort.min.js"></script>
+    <script src="js/main.min.js"></script>
   </body>
 </html>

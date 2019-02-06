@@ -1,0 +1,25 @@
+.snippets {
+  margin-top: 40px;
+  border-top: 1px solid $text-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.snippets__list {
+  @include list-reset();
+
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+.snippets__button {
+  display: inline-block;
+  vertical-align: middle;
+  height: 69px;
+  font-size: 22px;
+  background-color: #ad9baa;
+  padding: 25px 15px 10px 17px;
+  color: darken(#ad9baa, 40%);
+}
