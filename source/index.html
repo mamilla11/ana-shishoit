@@ -33,13 +33,13 @@
               </a>
             </li>
             <li class="site-navigation__item">
-              <a class="link link--underlined site-navigation__link" href="#snippets">
-                Snippets
+              <a class="link link--underlined site-navigation__link" href="#certificates">
+                Certificates
               </a>
             </li>
             <li class="site-navigation__item">
-              <a class="link link--underlined site-navigation__link" href="#contacts">
-                Contacts
+              <a class="link link--underlined site-navigation__link" href="#snippets">
+                Snippets
               </a>
             </li>
           </ul>
@@ -48,7 +48,47 @@
       <main>
         <section class="about" id="about">
           <h2 class="title visually-hidden">About</h2>
-          <img class="about__image" src="img/raster/anashi@2x.jpeg" width="320" height="320"/>
+          <picture>
+            <img class="about__image" src="img/raster/anashi@1x.jpeg" srcset="img/raster/anashi@2x.jpeg 2x" width="320" height="320"/>
+          </picture>
+          <ul class="about__socials">
+            <li class="about__social-item social">
+              <a class="button social__button social__button--tg" 
+                href="https://t.me/anashi_t" aria-label="Telegram link">
+                Telegram
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="button social__button social__button--insta" 
+                href="https://www.instagram.com/frozen_mamilla/" aria-label="Instagram link">
+                Instagram
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="button social__button social__button--github" 
+                href="https://github.com/mamilla11" aria-label="GitHub link">
+                GitHub
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="button social__button social__button--habr" 
+                href="https://habr.com/users/ana_lazareva/posts/" aria-label="Habrahabr link">
+                Habrahabr
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="button social__button social__button--linkedin" 
+                href="https://www.linkedin.com/in/anastasiia-shishova-76534096/" aria-label="LinkedIn link">
+                LinkedIn
+              </a>
+            </li>
+            <li class="about__social-item">
+              <a class="button social__button social__button--mail" 
+                href="mailto:n_lazareva@mail.ru" aria-label="E-mail address">
+                Mail
+              </a>
+            </li>
+          </ul>
           <p class="about__text">
             Hi! My name is Anastasiia. I worked as an Embedded Software Engineer for about 5 years,
             but recently I digged deeper into the Web Development. I am doing my very first steps in
@@ -125,7 +165,7 @@
                 <div class="table__column"></div>
                 <div class="table__row">
                   <p class="table__cell">Description</p>
-                  <p class="table__cell">Service for uploading and editing pictures</p>
+                  <p class="table__cell">Uploading and editing pictures</p>
                 </div>
                 <div class="table__row">
                   <p class="table__cell">Stack</p>
@@ -144,6 +184,38 @@
                   </a>
                 </div>
               </div> 
+            </li>
+          </ul>
+        </section>
+        <section class="certificates" id="certificates">
+          <h2 class="title">Certificates</h2>
+          <ul class="certificates__list">
+            <li class="certificates__item">
+              <a class="link" href="documents/html-and-css-1.pdf" target="_blank">
+                <img class="certificate__image" src="img/raster/html-and-css-1@1x.jpg"
+                    srcset="img/raster/html-and-css-1@2x.jpg" width="265" alt="HTML and CSS Level 1 Certificate">
+                <div class="certificate__text">
+                  <strong class="certificate__name">HTML &amp; CSS, level&nbsp;1</strong>
+                </div>
+              </a>
+            </li>
+            <li class="certificates__item">
+              <a class="link" href="documents/html-and-css-2.pdf" target="_blank">
+                <img class="certificate__image" src="img/raster/html-and-css-2@1x.jpg"
+                    srcset="img/raster/html-and-css-2@2x.jpg" width="265" alt="HTML and CSS Level 2 Certificate">
+                <div class="certificate__text">
+                  <strong class="certificate__name">HTML &amp; CSS, level&nbsp;2</strong>
+                </div>
+              </a>
+            </li>
+            <li class="certificates__item">
+              <a class="link" href="documents/js-1.pdf" target="_blank">
+                <img class="certificate__image" src="img/raster/js-1@1x.jpg"
+                    srcset="img/raster/js-1@2x.jpg" width="265" alt="JavaScript Certificate">
+                <div class="certificate__text">
+                  <strong class="certificate__name">JavaScript, level&nbsp;1</strong>
+                </div>
+              </a>
             </li>
           </ul>
         </section>

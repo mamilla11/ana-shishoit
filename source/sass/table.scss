@@ -1,0 +1,24 @@
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.table__column {
+  display: table-column;
+  width: 100px;
+}
+
+.table__row {
+  display: table-row;
+}
+
+.table__cell {
+  display: table-cell;
+  border: 1px solid #dbd3c9;
+  padding: 5px;
+  text-align: center;
+
+  @media (min-width: $width-tablet) {
+    text-align: left;
+  }
+}

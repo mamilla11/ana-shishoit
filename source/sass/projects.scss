@@ -54,9 +54,7 @@
   background-position: center;
 
   &--gllacy {
-    //background-color: #ad9baa;
     background-color: #88a0a8;
-    //background-color: #fad4d8;
     background-image: url("../img/vector/gllacy_logo.svg");
   }
 
@@ -75,29 +73,4 @@
 .projects__description {
   font-family: $font-arial;
   text-transform: none;
-}
-
-.table {
-  display: table;
-  border-collapse: collapse;
-}
-
-.table__column {
-  display: table-column;
-  width: 100px;
-}
-
-.table__row {
-  display: table-row;
-}
-
-.table__cell {
-  display: table-cell;
-  border: 1px solid #dbd3c9;
-  padding: 5px;
-  text-align: center;
-
-  @media (min-width: $width-tablet) {
-    text-align: left;
-  }
 }

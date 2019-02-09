@@ -23,3 +23,17 @@
     text-align: center;
   }
 }
+
+.about__socials {
+  display: flex;
+
+  @include list-reset();
+
+  @media (min-width: $width-mobile) {
+    margin: 20px 0;
+  }
+
+  @media (min-width: $width-mobile) {
+    margin: 20px 0 40px 0;
+  }
+}

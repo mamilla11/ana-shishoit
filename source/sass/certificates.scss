@@ -1,0 +1,53 @@
+.certificates {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top: 1px solid $text-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $width-tablet) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: $width-desktop) {
+    margin-bottom: 80px;
+  }
+}
+
+.certificates__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @include list-reset();
+
+  @media (min-width: $width-mobile) {
+    margin-top: 30px;
+  }
+
+  @media (min-width: $width-tablet) {
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  @media (min-width: $width-desktop) {
+    margin-top: 90px;
+  }
+}
+
+.certificates__item {
+  margin-bottom: 20px;
+  @media (min-width: $width-tablet) {
+    width: 45%;
+  }
+}
+
+.certificate__image {
+  @media (min-width: $width-tablet) {
+    width: 100%;
+    height: auto;
+  }
+}

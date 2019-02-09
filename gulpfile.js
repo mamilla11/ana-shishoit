@@ -26,7 +26,8 @@ gulp.task("copy", function() {
     "source/fonts/**/*.{woff,woff2}",
     "source/gllacy/**/*.*",
     "source/catenergy/**/*.*",
-    "source/kekstagram/**/*.*"], {
+    "source/kekstagram/**/*.*",
+    "source/documents/**/*.pdf"], {
     base: "source"
     })
     .pipe(gulp.dest("build"));

@@ -1,0 +1,36 @@
+.social__button {
+  border: 1px solid lighten(#ad9baa, 20%);
+  border-radius: 5px;
+  margin: 5px;
+  background-color: darken(#ad9baa, 11%);
+  color: darken(#ad9baa, 40%);
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--tg {
+    background-image: url("../img/vector/telegram-icon.svg");
+  }
+
+  &--insta {
+    background-image: url("../img/vector/insta-icon.svg");
+  }
+
+  &--github {
+    background-image: url("../img/vector/github-icon.svg");
+  }
+
+  &--habr {
+    background-image: url("../img/vector/habr-icon.svg");
+  }
+
+  &--linkedin {
+    background-image: url("../img/vector/linkedin-icon.svg");
+  }
+
+  &--mail {
+    background-image: url("../img/vector/mail-icon.svg");
+  }
+}
